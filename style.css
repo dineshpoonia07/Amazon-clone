@@ -26,11 +26,13 @@
 }
 
 .border{
-    border: 1.7px solid transparent;
+    border: 6px solid transparent;
 }
 
 .border:hover{
-    border: 0.90rem solid white;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: -1px;
 }
 
 /** box 2 **/
@@ -198,6 +200,21 @@ span{
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
+}
+.box-full{
+    height: 385px;
+    width: 1225px;
+    background-color: white;
+    background-size: cover;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img2{
+    height: 300px;
+    width: ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .box-img{
